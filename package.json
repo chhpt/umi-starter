@@ -15,20 +15,25 @@
     ]
   },
   "dependencies": {
-    "antd": "^4.16.6",
-    "umi": "^3.5.8"
+    "antd": "^4.16.8",
+    "umi": "^3.5.13"
   },
   "devDependencies": {
-    "@types/react": "^17.0.14",
+    "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
-    "@typescript-eslint/eslint-plugin": "^4.28.2",
-    "@typescript-eslint/parser": "^4.28.2",
-    "eslint": "^7.30.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "autoprefixer": "^9",
+    "babel-plugin-import": "^1.13.3",
+    "eslint": "^7.31.0",
     "eslint-config-alloy": "^4.1.0",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "^11.1.1",
+    "postcss": "^7.0.36",
+    "postcss-import": "^12.0.1",
     "prettier": "^2.3.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.3.5"
   }
 }
